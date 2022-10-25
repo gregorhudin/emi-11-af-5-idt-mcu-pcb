@@ -14,69 +14,13 @@ FolderGUID=
 LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
-[PublishSettings]
-OutputFilePath1=Project Outputs for Free Documents\FOR_REFERENCE_ONLY_DO_NOT_USE_AS_VALID_DOCUMENTATION\Asm3D_Variant_BomIdent.PDF
-ReleaseManaged1=1
-OutputBasePath1=Project Outputs for Free Documents
-OutputPathMedia1=FOR_REFERENCE_ONLY_DO_NOT_USE_AS_VALID_DOCUMENTATION
-OutputPathMediaValue1=FOR_REFERENCE_ONLY_DO_NOT_USE_AS_VALID_DOCUMENTATION
-OutputPathOutputer1=
-OutputPathOutputerPrefix1=
-OutputPathOutputerValue1=
-OutputFileName1=2103081600_OutJobTpl_Pcba_Emitter_Prod.PDF
-OutputFileNameMulti1=
-UseOutputNameForMulti1=0
-OutputFileNameSpecial1=='Pcba3D_'+Variant_BomIdent
-OpenOutput1=0
-PromptOverwrite1=1
-PublishMethod1=0
-ZoomLevel1=50
-FitSCHPrintSizeToDoc1=1
-FitPCBPrintSizeToDoc1=1
-GenerateNetsInfo1=1
-MarkPins1=1
-MarkNetLabels1=1
-MarkPortsId1=1
-GenerateTOC1=1
-ShowComponentParameters1=1
-GlobalBookmarks1=1
-PDFACompliance1=Disabled
-PDFVersion1=Default
-OutputFilePath2=C:\Auralix\Emitter\IndiaRemote\Hw\Pcb\Altium\Wrc_Bs\Project Outputs for Wrc_Bs\
-ReleaseManaged2=1
-OutputBasePath2=Project Outputs for Free Documents
-OutputPathMedia2=
-OutputPathMediaValue2==Global_ProjectName+Global_ProjectVersion+'_ReleaseAltium_'+CurrentDate
-OutputPathOutputer2=
-OutputPathOutputerPrefix2=
-OutputPathOutputerValue2=
-OutputFileName2=
-OutputFileNameMulti2=='Bom_'+Variant_BomIdent
-UseOutputNameForMulti2=0
-OutputFileNameSpecial2=
-OpenOutput2=0
-
-[GeneratedFilesSettings]
-RelativeOutputPath1=Project Outputs for Free Documents\FOR_REFERENCE_ONLY_DO_NOT_USE_AS_VALID_DOCUMENTATION\Asm3D_Variant_BomIdent.PDF
-OpenOutputs1=0
-RelativeOutputPath2=C:\Auralix\Emitter\IndiaRemote\Hw\Pcb\Altium\Wrc_Bs\Project Outputs for Wrc_Bs\
-OpenOutputs2=0
-AddToProject2=0
-TimestampFolder2=0
-UseOutputName2=0
-OpenODBOutput2=0
-OpenGerberOutput2=0
-OpenNCDrillOutput2=0
-OpenIPCOutput2=0
-EnableReload2=0
-
 [OutputGroup1]
 Name=2103081600_OutJobTpl_Pcba_Emitter_Prod.OutJob
 Description=
 TargetOutputMedium=Pcba3D
 VariantName=Main
-VariantScope=1
-CurrentConfigurationName=Prod_Asm_PAS100_200
+VariantScope=2
+CurrentConfigurationName=Prod_Pcba_IDT-MCU
 TargetPrinter=Virtual Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Pcba3D
@@ -120,15 +64,71 @@ PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 Configuration3_Name1=ColumnNameFormat
 Configuration3_Item1=CaptionAsName
 Configuration3_Name2=General
-Configuration3_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=True|NotFitted=True|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=Dependencies\2012301200_BomTpl_Emitter.xlsx|TemplateVaultGuid= |TemplateRevisionGuid= |BatchMode=5|FormWidth=1559|FormHeight=857|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName= 
+Configuration3_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=True|NotFitted=True|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\AuralixGitHub\emi-11-af-5-idt-mcu-pcb\EMI-11-AF-5\2012301200_BomTpl_Emitter.xlsx|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1559|FormHeight=857|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
 Configuration3_Name3=GroupOrder
 Configuration3_Item3=Fitted=True|Mfr No 1=True
 Configuration3_Name4=OutputConfigurationParameter1
-Configuration3_Item4=ateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16842751~1,16973835~1,16973833~1,16973831~1,16908301~1,16908303~1,16908289~1,16973837~1,16973848~1,16973849~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
+Configuration3_Item4=ateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16842751~1,16973835~1,16973833~1,16973831~1,16908301~1,16908303~1,16908289~1,16973837~1,16973848~1,16973849~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=[Project]
 Configuration3_Name5=SortOrder
 Configuration3_Item5=Fitted=Up|Designator=Up
 Configuration3_Name6=VisibleOrder
 Configuration3_Item6=Mfr No 1=100|Mfr=100|Quantity=83|Designator=64|Description=131|Fitted=70|Placement=50|Assembly Service Provides Material=88|Assembly Service Part Choice=93|sFarnell 1=100|sMouser 1=100|sDigikey 1=100|Temp Max=49|Temp Min=79|Mfr No 2=100|sFarnell 2=100|sMouser 2=100|sDigikey 2=100|zAlternative 1 - Mfr=100|zAlternative 1 - Mfr No 1=100|zAlternative 1 - Mfr No 2=100|zAlternative 2 - Mfr=100|zAlternative 2 - Mfr No 1=100|zAlternative 2 - Mfr No 2=100
 Configuration3_Name7=VisibleOrder_Flat
 Configuration3_Item7=Mfr No 1=100|Mfr=100|Quantity=83|Designator=64|Description=131|Fitted=70|Placement=50|Assembly Service Provides Material=88|Assembly Service Part Choice=93|sFarnell 1=100|sMouser 1=100|sDigikey 1=100|Temp Max=49|Temp Min=79|Mfr No 2=100|sFarnell 2=100|sMouser 2=100|sDigikey 2=100|zAlternative 1 - Mfr=100|zAlternative 1 - Mfr No 1=100|zAlternative 1 - Mfr No 2=100|zAlternative 2 - Mfr=100|zAlternative 2 - Mfr No 1=100|zAlternative 2 - Mfr No 2=100
+
+[PublishSettings]
+OutputFilePath1=Project Outputs for Free Documents\FOR_REFERENCE_ONLY_DO_NOT_USE_AS_VALID_DOCUMENTATION\Asm3D_Variant_BomIdent.PDF
+ReleaseManaged1=1
+OutputBasePath1=
+OutputPathMedia1=FOR_REFERENCE_ONLY_DO_NOT_USE_AS_VALID_DOCUMENTATION
+OutputPathMediaValue1=FOR_REFERENCE_ONLY_DO_NOT_USE_AS_VALID_DOCUMENTATION
+OutputPathOutputer1=
+OutputPathOutputerPrefix1=
+OutputPathOutputerValue1=
+OutputFileName1=2103081600_OutJobTpl_Pcba_Emitter_Prod.PDF
+OutputFileNameMulti1=
+UseOutputNameForMulti1=0
+OutputFileNameSpecial1=='Pcba3D_'+Variant_BomIdent
+OpenOutput1=0
+PromptOverwrite1=1
+PublishMethod1=0
+ZoomLevel1=50
+FitSCHPrintSizeToDoc1=1
+FitPCBPrintSizeToDoc1=1
+GenerateNetsInfo1=1
+MarkPins1=1
+MarkNetLabels1=1
+MarkPortsId1=1
+GenerateTOC1=1
+ShowComponentParameters1=1
+GlobalBookmarks1=1
+PDFACompliance1=Disabled
+PDFVersion1=Default
+OutputFilePath2=C:\Auralix\Emitter\IndiaRemote\Hw\Pcb\Altium\Wrc_Bs\Project Outputs for Wrc_Bs\
+ReleaseManaged2=1
+OutputBasePath2=
+OutputPathMedia2=
+OutputPathMediaValue2==Global_ProjectName+Global_ProjectVersion+'_ReleaseAltium_'+CurrentDate
+OutputPathOutputer2=
+OutputPathOutputerPrefix2=
+OutputPathOutputerValue2=
+OutputFileName2=
+OutputFileNameMulti2=='Bom_'+Variant_BomIdent
+UseOutputNameForMulti2=0
+OutputFileNameSpecial2=
+OpenOutput2=0
+
+[GeneratedFilesSettings]
+RelativeOutputPath1=Project Outputs for Free Documents\FOR_REFERENCE_ONLY_DO_NOT_USE_AS_VALID_DOCUMENTATION\Asm3D_Variant_BomIdent.PDF
+OpenOutputs1=0
+RelativeOutputPath2=C:\Auralix\Emitter\IndiaRemote\Hw\Pcb\Altium\Wrc_Bs\Project Outputs for Wrc_Bs\
+OpenOutputs2=0
+AddToProject2=0
+TimestampFolder2=0
+UseOutputName2=0
+OpenODBOutput2=0
+OpenGerberOutput2=0
+OpenNCDrillOutput2=0
+OpenIPCOutput2=0
+EnableReload2=0
 
