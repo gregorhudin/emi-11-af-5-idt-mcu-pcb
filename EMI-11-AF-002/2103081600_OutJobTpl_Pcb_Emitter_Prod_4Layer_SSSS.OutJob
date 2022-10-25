@@ -1,0 +1,146 @@
+[OutputJobFile]
+Version=1.0
+Caption=
+Description=
+VaultGUID=
+ItemGUID=
+ItemHRID=
+RevisionGUID=
+RevisionId=
+VaultHRID=
+AutoItemHRID=
+NextRevId=
+FolderGUID=
+LifeCycleDefinitionGUID=
+RevisionNamingSchemeGUID=
+
+[OutputGroup1]
+Name=2010091100_OutJobTpl_Prod_Fab_4Layer_SSSS_Emitter.OutJob
+Description=
+TargetOutputMedium=PcbProdNotes
+VariantName=Main
+VariantScope=1
+CurrentConfigurationName=
+TargetPrinter=Virtual Printer
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputMedium1=PcbProdNotes
+OutputMedium1_Type=Publish
+OutputMedium2=Gerber
+OutputMedium2_Type=GeneratedFiles
+OutputMedium3=NcDrill
+OutputMedium3_Type=GeneratedFiles
+OutputType1=Gerber
+OutputName1=Gerber
+OutputCategory1=Fabrication
+OutputDocumentPath1=
+OutputVariantName1=
+OutputEnabled1=0
+OutputEnabled1_OutputMedium1=0
+OutputEnabled1_OutputMedium2=1
+OutputEnabled1_OutputMedium3=0
+OutputDefault1=0
+Configuration1_Name1=OutputConfigurationParameter1
+Configuration1_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16777218~1,16777219~1,16842751~1,16973835~1,16973833~1,16973831~1,16973837~1,16973848~1,16973849~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
+OutputType2=NC Drill
+OutputName2=NcDrill
+OutputCategory2=Fabrication
+OutputDocumentPath2=
+OutputVariantName2=
+OutputEnabled2=0
+OutputEnabled2_OutputMedium1=0
+OutputEnabled2_OutputMedium2=0
+OutputEnabled2_OutputMedium3=1
+OutputDefault2=0
+Configuration2_Name1=OutputConfigurationParameter1
+Configuration2_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressTrailingZeroes
+OutputType3=PCBDrawing
+OutputName3=Draftsman
+OutputCategory3=Documentation
+OutputDocumentPath3=2012301200_PcbProdNotesTpl_Emitter.PCBDwf
+OutputVariantName3=
+OutputEnabled3=1
+OutputEnabled3_OutputMedium1=1
+OutputEnabled3_OutputMedium2=0
+OutputEnabled3_OutputMedium3=0
+OutputDefault3=0
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+
+[PublishSettings]
+OutputFilePath1=C:\Auralix\Auralix\PrjStd\Altium\Tpl\TPL-00--PrjTpl\PrjTpl_Emitter_4Layer_SSSS\Project Outputs for PrjTpl_Emitter_4Layer_SSSS\
+ReleaseManaged1=1
+OutputBasePath1=Project Outputs for PrjTpl_Emitter_4Layer_SSSS
+OutputPathMedia1=
+OutputPathMediaValue1=
+OutputPathOutputer1=
+OutputPathOutputerPrefix1=
+OutputPathOutputerValue1=
+OutputFileName1=2010091100_OutJobTpl_Prod_Fab_4Layer_SSSS_Emitter.PDF
+OutputFileNameMulti1=='PcbProdNotes_'+Global_ProjectName+Global_PcbVersion_File
+UseOutputNameForMulti1=0
+OutputFileNameSpecial1=
+OpenOutput1=1
+PromptOverwrite1=1
+PublishMethod1=1
+ZoomLevel1=50
+FitSCHPrintSizeToDoc1=1
+FitPCBPrintSizeToDoc1=1
+GenerateNetsInfo1=1
+MarkPins1=1
+MarkNetLabels1=1
+MarkPortsId1=1
+GenerateTOC1=1
+ShowComponentParameters1=1
+GlobalBookmarks1=0
+PDFACompliance1=Disabled
+PDFVersion1=Default
+OutputFilePath2=C:\Auralix\Emitter\IndiaRemote\Pcb\Altium\Wrc_Tx\Project Outputs for Wrc_Tx\
+ReleaseManaged2=1
+OutputBasePath2=Project Outputs for PrjTpl_Emitter_4Layer_SSSS
+OutputPathMedia2=
+OutputPathMediaValue2=
+OutputPathOutputer2=[Output Name]
+OutputPathOutputerPrefix2=
+OutputPathOutputerValue2=
+OutputFileName2=
+OutputFileNameMulti2==Global_PcbIdent
+UseOutputNameForMulti2=0
+OutputFileNameSpecial2=
+OpenOutput2=0
+OutputFilePath3=Project Outputs for Free Documents\
+ReleaseManaged3=1
+OutputBasePath3=Project Outputs for PrjTpl_Emitter_4Layer_SSSS
+OutputPathMedia3=
+OutputPathMediaValue3=
+OutputPathOutputer3=[Output Name]
+OutputPathOutputerPrefix3=
+OutputPathOutputerValue3=
+OutputFileName3=
+OutputFileNameMulti3==Global_PcbIdent
+UseOutputNameForMulti3=0
+OutputFileNameSpecial3=
+OpenOutput3=0
+
+[GeneratedFilesSettings]
+RelativeOutputPath1=C:\Auralix\Auralix\PrjStd\Altium\Tpl\TPL-00--PrjTpl\PrjTpl_Emitter_4Layer_SSSS\Project Outputs for PrjTpl_Emitter_4Layer_SSSS\
+OpenOutputs1=1
+RelativeOutputPath2=C:\Auralix\Emitter\IndiaRemote\Pcb\Altium\Wrc_Tx\Project Outputs for Wrc_Tx\
+OpenOutputs2=0
+AddToProject2=0
+TimestampFolder2=0
+UseOutputName2=0
+OpenODBOutput2=0
+OpenGerberOutput2=0
+OpenNCDrillOutput2=0
+OpenIPCOutput2=0
+EnableReload2=0
+RelativeOutputPath3=Project Outputs for Free Documents\
+OpenOutputs3=0
+AddToProject3=0
+TimestampFolder3=0
+UseOutputName3=0
+OpenODBOutput3=0
+OpenGerberOutput3=0
+OpenNCDrillOutput3=0
+OpenIPCOutput3=0
+EnableReload3=0
+
